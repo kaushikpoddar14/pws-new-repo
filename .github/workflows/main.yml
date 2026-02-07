@@ -1,6 +1,6 @@
 name: test cicd case
 
-trigger:
+trigger
     push:
     branches: ["main"]
 
