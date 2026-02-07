@@ -1,8 +1,9 @@
 name: test cicd case
 
-trigger
-    push:
-    branches: ["main"]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   test:
